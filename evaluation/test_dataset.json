@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "category": "English In-Scope",
+    "query": "What is the refund policy for CarePal services?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["refund"],
+    "expected_answer_keywords": ["refund", "non-refundable", "support@thecarepal.com"],
+    "description": "User asking about service cancellation and refund policy."
+  },
+  {
+    "id": 2,
+    "category": "English In-Scope",
+    "query": "What elderly care and senior support services does TheCarePal provide?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["elderly", "services"],
+    "expected_answer_keywords": ["elderly", "care", "daily", "support"],
+    "description": "User inquiring about comprehensive elder care services."
+  },
+  {
+    "id": 3,
+    "category": "English In-Scope",
+    "query": "Does CarePal provide specialized caregivers for dementia and memory care?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["dementia", "alzeihmer"],
+    "expected_answer_keywords": ["dementia", "memory", "care"],
+    "description": "User asking about memory support and trained dementia attendants."
+  },
+  {
+    "id": 4,
+    "category": "English In-Scope",
+    "query": "Can we get a 24/7 full-time live-in caregiver at home?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["livein-care", "services"],
+    "expected_answer_keywords": ["live-in", "24/7", "caregiver", "home"],
+    "description": "User asking about full-time residential live-in care attendants."
+  },
+  {
+    "id": 5,
+    "category": "English In-Scope",
+    "query": "What infant and newborn baby care services are available?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["babycare"],
+    "expected_answer_keywords": ["baby", "infant", "newborn", "mother"],
+    "description": "User checking post-delivery mother and baby care assistance."
+  },
+  {
+    "id": 6,
+    "category": "English In-Scope",
+    "query": "How do online doctor consultations work on CarePal?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["doctor", "consultation"],
+    "expected_answer_keywords": ["doctor", "consultation", "online", "medical"],
+    "description": "Inquiry regarding teleconsultation and medical appointments."
+  },
+  {
+    "id": 7,
+    "category": "English In-Scope",
+    "query": "How does CarePal protect and manage patient personal and health data?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["privacy"],
+    "expected_answer_keywords": ["privacy", "data", "information", "consent"],
+    "description": "User checking privacy policy and data security practices."
+  },
+  {
+    "id": 8,
+    "category": "English In-Scope",
+    "query": "What are the terms and conditions regarding service agreements and cancellations?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["terms", "refund"],
+    "expected_answer_keywords": ["terms", "conditions", "service"],
+    "description": "User reviewing service agreement legal terms."
+  },
+  {
+    "id": 9,
+    "category": "English In-Scope",
+    "query": "How can I contact TheCarePal customer support team directly?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["contact", "terms", "refund", "thecarepal.com"],
+    "expected_answer_keywords": ["contact", "support", "carepal", "@thecarepal.com"],
+    "description": "User looking for direct customer support and helpline details."
+  },
+  {
+    "id": 10,
+    "category": "English In-Scope",
+    "query": "Are there job openings for trained nurses and home caregivers at CarePal?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["careers"],
+    "expected_answer_keywords": ["career", "caregiver", "join", "team"],
+    "description": "Healthcare worker inquiring about caregiver career opportunities."
+  },
+  {
+    "id": 11,
+    "category": "Hindi In-Scope",
+    "query": "बुजुर्गों की देखभाल (Elderly Care) में CarePal क्या-क्या सुविधा प्रदान करता है?",
+    "expected_language": "Hindi",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["elderly", "livein-care", "services"],
+    "expected_answer_keywords": ["केयर", "देखभाल", "CarePal"],
+    "description": "Hindi query regarding elderly assistance and home nursing."
+  },
+  {
+    "id": 12,
+    "category": "Hindi In-Scope",
+    "query": "क्या रिफंड मिलता है अगर हम सर्विस कैंसिल करें?",
+    "expected_language": "Hindi",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["refund"],
+    "expected_answer_keywords": ["रिफंड", "non-refundable", "गैर-वापसी"],
+    "description": "Hindi query testing refund and non-refundable policy explanation."
+  },
+  {
+    "id": 13,
+    "category": "Hindi In-Scope",
+    "query": "क्या घर पर 24 घंटे रहने वाले लाइव-इन केयरगिवर की सुविधा उपलब्ध है?",
+    "expected_language": "Hindi",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["livein-care"],
+    "expected_answer_keywords": ["लाइव-इन", "24/7", "केयरगिवर"],
+    "description": "Hindi query regarding full-time residential caregivers."
+  },
+  {
+    "id": 14,
+    "category": "Hindi In-Scope",
+    "query": "नवजात शिशु और नई माँ की देखभाल (Baby Care) के लिए क्या सेवाएं हैं?",
+    "expected_language": "Hindi",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["babycare"],
+    "expected_answer_keywords": ["शिशु", "माँ", "देखभाल", "baby"],
+    "description": "Hindi inquiry regarding postpartum and newborn infant care."
+  },
+  {
+    "id": 15,
+    "category": "Hindi In-Scope",
+    "query": "अल्जाइमर और डिमेंशिया के मरीजों के लिए क्या खास मेमोरी केयर सपोर्ट है?",
+    "expected_language": "Hindi",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["dementia", "alzeihmer"],
+    "expected_answer_keywords": ["डिमेंशिया", "अल्जाइमर", "मेमोरी", "dementia", "memory", "care"],
+    "description": "Hindi query regarding memory care and specialized dementia support."
+  },
+  {
+    "id": 16,
+    "category": "Hindi In-Scope",
+    "query": "क्या हम घर बैठे ऑनलाइन डॉक्टर से सलाह और परामर्श ले सकते हैं?",
+    "expected_language": "Hindi",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["doctor", "consultation"],
+    "expected_answer_keywords": ["डॉक्टर", "परामर्श", "ऑनलाइन", "doctor", "consultation"],
+    "description": "Hindi query testing teleconsultation services."
+  },
+  {
+    "id": 17,
+    "category": "Hinglish In-Scope",
+    "query": "Baby care aur elderly care mein kya facilities milti hain?",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["babycare", "elderly", "services"],
+    "expected_answer_keywords": ["care", "support", "CarePal"],
+    "description": "Hinglish inquiry combining baby care and senior care."
+  },
+  {
+    "id": 18,
+    "category": "Hinglish In-Scope",
+    "query": "Kya dementia care ke liye trained nurse ya caregiver milti hai?",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["dementia", "alzeihmer"],
+    "expected_answer_keywords": ["dementia", "caregiver", "memory"],
+    "description": "Hinglish query checking trained dementia nurse availability."
+  },
+  {
+    "id": 19,
+    "category": "Hinglish In-Scope",
+    "query": "Agar hum service cancel karein toh kya refund mil sakta hai?",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["refund"],
+    "expected_answer_keywords": ["refund", "non-refundable"],
+    "description": "Hinglish query checking refund and cancellation policy."
+  },
+  {
+    "id": 20,
+    "category": "Hinglish In-Scope",
+    "query": "24/7 full time attendant ghar par rehne ke liye available hai kya?",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["livein-care"],
+    "expected_answer_keywords": ["live-in", "24/7", "caregiver"],
+    "description": "Hinglish query checking 24/7 residential caregiver."
+  },
+  {
+    "id": 21,
+    "category": "Hinglish In-Scope",
+    "query": "Doctor consultation online video call par hota hai ya clinic jana hoga?",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["doctor", "consultation"],
+    "expected_answer_keywords": ["doctor", "consultation", "online"],
+    "description": "Hinglish query regarding online doctor appointment flow."
+  },
+  {
+    "id": 22,
+    "category": "Hinglish In-Scope",
+    "query": "CarePal team se directly baat karne ke liye contact details kya hain?",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": false,
+    "expected_url_keywords": ["contact", "terms", "refund", "careers", "thecarepal.com"],
+    "expected_answer_keywords": ["contact", "support", "carepal", "@thecarepal.com"],
+    "description": "Hinglish query looking for phone or email contact information."
+  },
+  {
+    "id": 23,
+    "category": "Conversational & Language Handling",
+    "query": "can you talk in english",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["English", "Hindi", "Hinglish"],
+    "description": "Language switching query confirming English fluency without fallback."
+  },
+  {
+    "id": 24,
+    "category": "Conversational & Language Handling",
+    "query": "hindi mai baat kar sakte h?",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": false,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["हिंदी", "Hindi", "CarePal"],
+    "description": "Language switching query confirming Hindi capability without fallback."
+  },
+  {
+    "id": 25,
+    "category": "Conversational & Language Handling",
+    "query": "Who are you and what is CarePal?",
+    "expected_language": "English",
+    "is_out_of_scope": false,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["CarePal", "Support Assistant", "home care"],
+    "description": "Bot identity and platform introductory question."
+  },
+  {
+    "id": 26,
+    "category": "Out-of-Scope Fallback & Lead Logging",
+    "query": "Do you provide dog walking and pet grooming services?",
+    "expected_language": "English",
+    "is_out_of_scope": true,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["don't have this information", "call", "Phone Number"],
+    "description": "Completely unrelated pet care request triggering English fallback."
+  },
+  {
+    "id": 27,
+    "category": "Out-of-Scope Fallback & Lead Logging",
+    "query": "How much does a 12-hour ICU ventilator setup cost at home?",
+    "expected_language": "English",
+    "is_out_of_scope": true,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["don't have this information", "call", "Phone Number"],
+    "description": "Specific pricing and heavy ICU medical hardware out-of-scope query."
+  },
+  {
+    "id": 28,
+    "category": "Out-of-Scope Fallback & Lead Logging",
+    "query": "Can you provide a divorce lawyer and legal documentation assistance?",
+    "expected_language": "English",
+    "is_out_of_scope": true,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["don't have this information", "call", "Phone Number"],
+    "description": "Legal/court consultation query triggering English callback offer."
+  },
+  {
+    "id": 29,
+    "category": "Out-of-Scope Fallback & Lead Logging",
+    "query": "क्या आप कार रिपेयर, बाइक सर्विसिंग या मैकेनिक सुविधा देते हैं?",
+    "expected_language": "Hindi",
+    "is_out_of_scope": true,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["जानकारी नहीं मिली", "संपर्क", "फ़ोन नंबर"],
+    "description": "Automotive mechanical request triggering Hindi callback fallback."
+  },
+  {
+    "id": 30,
+    "category": "Out-of-Scope Fallback & Lead Logging",
+    "query": "क्या मैं सेवा के लिए बिटकॉइन या क्रिप्टोकरेंसी (Crypto) से पेमेंट कर सकता हूँ?",
+    "expected_language": "Hindi",
+    "is_out_of_scope": true,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["जानकारी नहीं मिली", "संपर्क", "फ़ोन नंबर"],
+    "description": "Cryptocurrency payment request triggering Hindi fallback."
+  },
+  {
+    "id": 31,
+    "category": "Out-of-Scope Fallback & Lead Logging",
+    "query": "mujhe lagta h mujhe artheritis h",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": true,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["jankari nahi mili", "contact", "Phone Number"],
+    "description": "User self-diagnosing arthritis triggering Hinglish callback fallback."
+  },
+  {
+    "id": 32,
+    "category": "Out-of-Scope Fallback & Lead Logging",
+    "query": "Delhi NCR mein plot ya flat khareedne ke liye real estate agent chahiye",
+    "expected_language": "Hinglish",
+    "is_out_of_scope": true,
+    "expected_url_keywords": [],
+    "expected_answer_keywords": ["jankari nahi mili", "contact", "Phone Number"],
+    "description": "Real estate property inquiry triggering Hinglish callback fallback."
+  }
+]
