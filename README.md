@@ -96,6 +96,7 @@ flowchart TD
 ├── .gitignore                 # Python, virtualenv, secrets & cache ignores
 ├── app.py                     # Main Streamlit Web Application (Chat UI + Ops Admin)
 ├── config.py                  # URLs, chunking params, paths, models, similarity thresholds
+├── LICENSE                    # MIT License (covers source code only)
 ├── README.md                  # Comprehensive setup, design & architecture docs
 └── requirements.txt           # Verified dependencies (requests, bs4, faiss, streamlit)
 ```
@@ -283,3 +284,9 @@ As transparently required by TheCarePal assignment guidelines:
 - **Google Antigravity:** Used for project scaffolding, DOM inspection scripting, and test orchestration.
 - **HuggingFace Sentence-Transformers:** Used for local dense embeddings (`all-MiniLM-L6-v2`).
 - **Google Gemini API:** Optional streaming LLM for multilingual conversational generation.
+
+---
+
+## 11. License
+
+This project is licensed under the [MIT License](LICENSE). The MIT License covers the source code only and does not apply to TheCarePal's website content or scraped data (`data/`).
